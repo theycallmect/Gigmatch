@@ -1,0 +1,5 @@
+spotipy
+rapidfuzz
+beautifulsoup4
+requests
+python-dotenv
