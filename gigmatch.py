@@ -11,8 +11,7 @@ load_dotenv()
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
     scope="playlist-read-private",
     cache_path=".cache",
-    open_browser=True,
-    redirect_uri="http://127.0.0.1:8080/callback"
+    open_browser=True
 ))
 
 def search_festival(query):
