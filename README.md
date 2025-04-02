@@ -8,7 +8,7 @@ Find which artists from your Spotify playlists are playing at festivals.
 
 ```bash
 # Create a virtual environment
-python -m venv venv
+python -m venv .venv
 
 # Activate it
 # Windows:
